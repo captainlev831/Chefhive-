@@ -1,0 +1,36 @@
+*{ 
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+
+body{
+width: 100%;
+min-height: 100vh;
+background-color: rgba(245, 151, 10, 0.849);
+}
+
+header{
+    height: 60px; 
+width: 100%;
+background: rgba(233, 44, 54, 0.671);
+color: white;        
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
